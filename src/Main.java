@@ -9,7 +9,7 @@ public class Main {
         System.out.println(n % 10);
     }
 
-    // Task 2 Sum recursively
+    // Task 2: Sum recursively
     public static int sum(int[] arr, int n) {
         if (n == 0) return 0;
         return arr[n - 1] + sum(arr, n - 1);
